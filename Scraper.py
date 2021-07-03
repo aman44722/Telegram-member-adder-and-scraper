@@ -3,9 +3,9 @@ from telethon.tl.functions.messages import GetDialogsRequest
 from telethon.tl.types import InputPeerEmpty
 import csv
 
-api_id = 3317618	 #Enter Your 7 Digit Telegram API ID.
-api_hash = '41c0894c4c3ea572dc46e127e86da996'   #Enter Yor 32 Character API Hash.
-phone = '+917903431801'   #Enter Your Mobilr Number With Country Code.
+api_id = *****	 #Enter Your 7 Digit Telegram API ID.
+api_hash = '******'   #Enter Yor 32 Character API Hash.
+phone = '*****'   #Enter Your Mobilr Number With Country Code.
 client = TelegramClient(phone, api_id, api_hash)
 async def main():
     # Now you can use all client methods listed below, like for example...
